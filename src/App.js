@@ -10,6 +10,7 @@ import HashTable from './components/DataStructure/HashTable/HashTable.jsx';
 import Set from './components/DataStructure/Set/Set.jsx';
 import Tree from './components/DataStructure/Tree/Tree.jsx';
 import Heap from './components/DataStructure/Heap/Heap.jsx';
+import BinarySearchTree from './components/DataStructure/BinarySearchTree/BinarySearchTree.jsx';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/data-structures/Set" element={<Set />} />
           <Route path="/data-structures/Tree" element={<Tree />} />
           <Route path="/data-structures/Heap" element={<Heap />} />
+          <Route path="/data-structures/BinarySearchTree" element={<BinarySearchTree />} />
         </Routes>
       </MainLayout>
     </Router>
